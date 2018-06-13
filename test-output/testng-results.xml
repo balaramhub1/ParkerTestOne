@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="2" ignored="0" total="18" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parker Automation - Regression" duration-ms="478772" started-at="2018-06-10T15:39:16Z" finished-at="2018-06-10T15:47:15Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="478772" started-at="2018-06-10T15:39:16Z" finished-at="2018-06-10T15:47:15Z">
+      <class name="parker.homepage.HomePageTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="25628" started-at="2018-06-10T21:09:16Z" finished-at="2018-06-10T21:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d]" name="parkerPageTitleTest" duration-ms="699" started-at="2018-06-10T21:09:42Z" finished-at="2018-06-10T21:09:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at parker.homepage.HomePageTest.parkerPageTitleTest(HomePageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkerPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1604" started-at="2018-06-10T21:09:43Z" finished-at="2018-06-10T21:09:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parkerPageTitleTest status=SKIP method=HomePageTest.parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="19612" started-at="2018-06-10T21:09:44Z" finished-at="2018-06-10T21:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d]" name="parkerPageTitleTest" duration-ms="293" started-at="2018-06-10T21:10:04Z" finished-at="2018-06-10T21:10:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at parker.homepage.HomePageTest.parkerPageTitleTest(HomePageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkerPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1497" started-at="2018-06-10T21:10:04Z" finished-at="2018-06-10T21:10:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parkerPageTitleTest status=SKIP method=HomePageTest.parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="19550" started-at="2018-06-10T21:10:06Z" finished-at="2018-06-10T21:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d]" name="parkerPageTitleTest" duration-ms="312" started-at="2018-06-10T21:10:25Z" finished-at="2018-06-10T21:10:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at parker.homepage.HomePageTest.parkerPageTitleTest(HomePageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkerPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1256" started-at="2018-06-10T21:10:26Z" finished-at="2018-06-10T21:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parkerPageTitleTest status=SKIP method=HomePageTest.parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="17922" started-at="2018-06-10T21:10:27Z" finished-at="2018-06-10T21:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="FAIL" signature="parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d]" name="parkerPageTitleTest" duration-ms="1189" started-at="2018-06-10T21:10:45Z" finished-at="2018-06-10T21:10:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title mismatch found  expected [arker Engineering Your Success Motion Control Technology - Parker] but found [Parker Engineering Your Success Motion Control Technology - Parker]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at parker.homepage.HomePageTest.parkerPageTitleTest(HomePageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkerPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1167" started-at="2018-06-10T21:10:48Z" finished-at="2018-06-10T21:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parkerPageTitleTest status=FAILURE method=HomePageTest.parkerPageTitleTest()[pri:1, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="21339" started-at="2018-06-10T21:11:22Z" finished-at="2018-06-10T21:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="parkerLogoTest()[pri:2, instance:parker.homepage.HomePageTest@3f4d3d]" name="parkerLogoTest" duration-ms="866" started-at="2018-06-10T21:11:43Z" finished-at="2018-06-10T21:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parkerLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1247" started-at="2018-06-10T21:11:45Z" finished-at="2018-06-10T21:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parkerLogoTest status=SUCCESS method=HomePageTest.parkerLogoTest()[pri:2, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="21299" started-at="2018-06-10T21:12:20Z" finished-at="2018-06-10T21:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="inqSectionDispTest()[pri:3, instance:parker.homepage.HomePageTest@3f4d3d]" name="inqSectionDispTest" duration-ms="622" started-at="2018-06-10T21:12:42Z" finished-at="2018-06-10T21:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inqSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1807" started-at="2018-06-10T21:12:44Z" finished-at="2018-06-10T21:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inqSectionDispTest status=SUCCESS method=HomePageTest.inqSectionDispTest()[pri:3, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="20770" started-at="2018-06-10T21:13:21Z" finished-at="2018-06-10T21:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d]" name="chatSectionDispTest" duration-ms="544" started-at="2018-06-10T21:13:42Z" finished-at="2018-06-10T21:13:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at parker.homepage.HomePageTest.chatSectionDispTest(HomePageTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1307" started-at="2018-06-10T21:13:43Z" finished-at="2018-06-10T21:13:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatSectionDispTest status=SKIP method=HomePageTest.chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="18345" started-at="2018-06-10T21:13:44Z" finished-at="2018-06-10T21:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d]" name="chatSectionDispTest" duration-ms="525" started-at="2018-06-10T21:14:02Z" finished-at="2018-06-10T21:14:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at parker.homepage.HomePageTest.chatSectionDispTest(HomePageTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1442" started-at="2018-06-10T21:14:03Z" finished-at="2018-06-10T21:14:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatSectionDispTest status=SKIP method=HomePageTest.chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="18680" started-at="2018-06-10T21:14:04Z" finished-at="2018-06-10T21:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d]" name="chatSectionDispTest" duration-ms="840" started-at="2018-06-10T21:14:23Z" finished-at="2018-06-10T21:14:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at parker.homepage.HomePageTest.chatSectionDispTest(HomePageTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1285" started-at="2018-06-10T21:14:24Z" finished-at="2018-06-10T21:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatSectionDispTest status=SKIP method=HomePageTest.chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="16323" started-at="2018-06-10T21:14:25Z" finished-at="2018-06-10T21:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="FAIL" signature="chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d]" name="chatSectionDispTest" duration-ms="692" started-at="2018-06-10T21:14:42Z" finished-at="2018-06-10T21:14:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at parker.homepage.HomePageTest.chatSectionDispTest(HomePageTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1280" started-at="2018-06-10T21:14:44Z" finished-at="2018-06-10T21:14:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatSectionDispTest status=FAILURE method=HomePageTest.chatSectionDispTest()[pri:4, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="17063" started-at="2018-06-10T21:14:45Z" finished-at="2018-06-10T21:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="confSectionDispTest()[pri:5, instance:parker.homepage.HomePageTest@3f4d3d]" name="confSectionDispTest" duration-ms="937" started-at="2018-06-10T21:15:02Z" finished-at="2018-06-10T21:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confSectionDispTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1122" started-at="2018-06-10T21:15:05Z" finished-at="2018-06-10T21:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confSectionDispTest status=SUCCESS method=HomePageTest.confSectionDispTest()[pri:5, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="18185" started-at="2018-06-10T21:15:06Z" finished-at="2018-06-10T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="clikOnValvesTest()[pri:6, instance:parker.homepage.HomePageTest@3f4d3d]" name="clikOnValvesTest" duration-ms="1896" started-at="2018-06-10T21:15:25Z" finished-at="2018-06-10T21:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clikOnValvesTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1275" started-at="2018-06-10T21:15:29Z" finished-at="2018-06-10T21:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clikOnValvesTest status=SUCCESS method=HomePageTest.clikOnValvesTest()[pri:6, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="23081" started-at="2018-06-10T21:15:30Z" finished-at="2018-06-10T21:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="clickOnSigninRegisterTest()[pri:7, instance:parker.homepage.HomePageTest@3f4d3d]" name="clickOnSigninRegisterTest" duration-ms="22141" started-at="2018-06-10T21:15:53Z" finished-at="2018-06-10T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSigninRegisterTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1704" started-at="2018-06-10T21:16:16Z" finished-at="2018-06-10T21:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnSigninRegisterTest status=SUCCESS method=HomePageTest.clickOnSigninRegisterTest()[pri:7, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="21097" started-at="2018-06-10T21:16:17Z" finished-at="2018-06-10T21:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="clickOnProductsLinkTest()[pri:8, instance:parker.homepage.HomePageTest@3f4d3d]" name="clickOnProductsLinkTest" duration-ms="1789" started-at="2018-06-10T21:16:38Z" finished-at="2018-06-10T21:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnProductsLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1540" started-at="2018-06-10T21:16:42Z" finished-at="2018-06-10T21:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnProductsLinkTest status=SUCCESS method=HomePageTest.clickOnProductsLinkTest()[pri:8, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="initTest" is-config="true" duration-ms="19258" started-at="2018-06-10T21:16:44Z" finished-at="2018-06-10T21:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="clickOnWhereToBuyLinkTest()[pri:9, instance:parker.homepage.HomePageTest@3f4d3d]" name="clickOnWhereToBuyLinkTest" duration-ms="9562" started-at="2018-06-10T21:17:03Z" finished-at="2018-06-10T21:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhereToBuyLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:parker.homepage.HomePageTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="1643" started-at="2018-06-10T21:17:13Z" finished-at="2018-06-10T21:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnWhereToBuyLinkTest status=SUCCESS method=HomePageTest.clickOnWhereToBuyLinkTest()[pri:9, instance:parker.homepage.HomePageTest@3f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parker.homepage.HomePageTest -->
+      <class name="parker.wheretobuy.WhereToBuyPageTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="initTest" is-config="true" duration-ms="30371" started-at="2018-06-10T21:10:49Z" finished-at="2018-06-10T21:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="whereToBuyLabelDispTest()[pri:1, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="whereToBuyLabelDispTest" duration-ms="771" started-at="2018-06-10T21:11:19Z" finished-at="2018-06-10T21:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whereToBuyLabelDispTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="tearDown" is-config="true" duration-ms="829" started-at="2018-06-10T21:11:21Z" finished-at="2018-06-10T21:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="initTest" is-config="true" duration-ms="29419" started-at="2018-06-10T21:11:47Z" finished-at="2018-06-10T21:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="selectProductCategoryLabelDispTest()[pri:2, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="selectProductCategoryLabelDispTest" duration-ms="1250" started-at="2018-06-10T21:12:16Z" finished-at="2018-06-10T21:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductCategoryLabelDispTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="tearDown" is-config="true" duration-ms="2532" started-at="2018-06-10T21:12:18Z" finished-at="2018-06-10T21:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="initTest" is-config="true" duration-ms="30130" started-at="2018-06-10T21:12:46Z" finished-at="2018-06-10T21:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="selectCountryFromListTest()[pri:3, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="selectCountryFromListTest" duration-ms="1085" started-at="2018-06-10T21:13:16Z" finished-at="2018-06-10T21:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountryFromListTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parker.wheretobuy.WhereToBuyPageTest@13b32d7]" name="tearDown" is-config="true" duration-ms="3556" started-at="2018-06-10T21:13:18Z" finished-at="2018-06-10T21:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parker.wheretobuy.WhereToBuyPageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Parker Automation - Regression -->
+</testng-results>

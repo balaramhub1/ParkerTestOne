@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parker Automation - Regression]">
+  <listeners>
+    <listener class-name="parker.listeners.Transformer"/>
+    <listener class-name="parker.listeners.ExtentReportOne"/>
+    <listener class-name="parker.listeners.ParkerTestListener"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="parker.homepage.HomePageTest">
+        <methods>
+          <include name="parkerPageTitleTest"/>
+          <include name="initTest"/>
+          <include name="chatSectionDispTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- parker.homepage.HomePageTest -->
+      <class name="parker.wheretobuy.WhereToBuyPageTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- parker.wheretobuy.WhereToBuyPageTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Parker Automation - Regression] -->

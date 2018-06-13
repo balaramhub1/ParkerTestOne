@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parker Automation - Regression">
+
+	<listeners>
+		<listener class-name="parker.listeners.Transformer"></listener>
+		<listener class-name="parker.listeners.ExtentReportOne"></listener>
+		<listener class-name="parker.listeners.ParkerTestListener"></listener>
+
+	</listeners>
+  
+  <test name="Regression">
+  
+  	<classes>
+  		<class name="parker.homepage.HomePageTest"></class>
+  		<class name="parker.wheretobuy.WhereToBuyPageTest"></class>
+  		<!-- <class name="parker.productspage.ProductsPageTest"></class> -->
+  	</classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parker Automation - Regression" parallel="tests" thread-count="2">
+  <test name="Regression-chrome">
+  <parameter name="browser" value="chrome"></parameter>
+  	<classes>
+  		<class name="parker.homepage.HomePageTest"></class>
+  	</classes>
+  </test>
+  
+  <test name="Regression-firefox">
+  <parameter name="browser" value="firefox"></parameter>
+  	<classes>
+  		<class name="parker.homepage.HomePageTest"></class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
